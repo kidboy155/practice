@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F664F548217E231400EF8859 /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F664F545217E231300EF8859 /* HandyJSON.framework */; };
+		F664F549217E231400EF8859 /* Localize_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F664F546217E231400EF8859 /* Localize_Swift.framework */; };
+		F664F54A217E231400EF8859 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F664F547217E231400EF8859 /* SnapKit.framework */; };
+		F664F54D217E258700EF8859 /* TableData.json in Resources */ = {isa = PBXBuildFile; fileRef = F664F54C217E258700EF8859 /* TableData.json */; };
+		F664F550217E263F00EF8859 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664F54F217E263F00EF8859 /* ProfileModel.swift */; };
+		F664F555217E2B5B00EF8859 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664F554217E2B5B00EF8859 /* ProfileViewModel.swift */; };
+		F664F557217E31F500EF8859 /* NamePictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664F556217E31F500EF8859 /* NamePictureCell.swift */; };
+		F664F559217E344B00EF8859 /* Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664F558217E344B00EF8859 /* Configure.swift */; };
+		F664F55B217E350000EF8859 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F664F55A217E350000EF8859 /* Extentions.swift */; };
+		F67A5689217F6A4F006521AB /* AboutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67A5688217F6A4F006521AB /* AboutCell.swift */; };
+		F67A568B217F6C72006521AB /* AttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67A568A217F6C72006521AB /* AttributeCell.swift */; };
+		F67A568D217F6EAE006521AB /* FriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67A568C217F6EAE006521AB /* FriendsCell.swift */; };
+		F67A568F217F81E4006521AB /* EmailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67A568E217F81E4006521AB /* EmailCell.swift */; };
 		F6824A2021762874003029EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6824A1F21762874003029EE /* AppDelegate.swift */; };
 		F6824A2221762874003029EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6824A2121762874003029EE /* ViewController.swift */; };
 		F6824A2521762874003029EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6824A2321762874003029EE /* Main.storyboard */; };
@@ -35,6 +48,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F664F545217E231300EF8859 /* HandyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandyJSON.framework; path = Carthage/Build/iOS/HandyJSON.framework; sourceTree = "<group>"; };
+		F664F546217E231400EF8859 /* Localize_Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Localize_Swift.framework; path = Carthage/Build/iOS/Localize_Swift.framework; sourceTree = "<group>"; };
+		F664F547217E231400EF8859 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		F664F54C217E258700EF8859 /* TableData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TableData.json; sourceTree = "<group>"; };
+		F664F54F217E263F00EF8859 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		F664F554217E2B5B00EF8859 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		F664F556217E31F500EF8859 /* NamePictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamePictureCell.swift; sourceTree = "<group>"; };
+		F664F558217E344B00EF8859 /* Configure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configure.swift; sourceTree = "<group>"; };
+		F664F55A217E350000EF8859 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		F67A5688217F6A4F006521AB /* AboutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCell.swift; sourceTree = "<group>"; };
+		F67A568A217F6C72006521AB /* AttributeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeCell.swift; sourceTree = "<group>"; };
+		F67A568C217F6EAE006521AB /* FriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCell.swift; sourceTree = "<group>"; };
+		F67A568E217F81E4006521AB /* EmailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailCell.swift; sourceTree = "<group>"; };
 		F6824A1C21762874003029EE /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6824A1F21762874003029EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6824A2121762874003029EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F664F548217E231400EF8859 /* HandyJSON.framework in Frameworks */,
+				F664F549217E231400EF8859 /* Localize_Swift.framework in Frameworks */,
+				F664F54A217E231400EF8859 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +105,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F664F544217E231300EF8859 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F664F545217E231300EF8859 /* HandyJSON.framework */,
+				F664F546217E231400EF8859 /* Localize_Swift.framework */,
+				F664F547217E231400EF8859 /* SnapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F664F54E217E25E900EF8859 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F664F54F217E263F00EF8859 /* ProfileModel.swift */,
+				F664F558217E344B00EF8859 /* Configure.swift */,
+				F664F55A217E350000EF8859 /* Extentions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F664F553217E2B3600EF8859 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F664F554217E2B5B00EF8859 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		F6824A1321762874003029EE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +140,7 @@
 				F6824A3321762875003029EE /* TableViewTests */,
 				F6824A3E21762875003029EE /* TableViewUITests */,
 				F6824A1D21762874003029EE /* Products */,
+				F664F544217E231300EF8859 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +163,10 @@
 				F6824A2621762875003029EE /* Assets.xcassets */,
 				F6824A2821762875003029EE /* LaunchScreen.storyboard */,
 				F6824A2B21762875003029EE /* Info.plist */,
+				F664F54C217E258700EF8859 /* TableData.json */,
+				F664F553217E2B3600EF8859 /* ViewModel */,
 				F6824A4D21762B3D003029EE /* CellsDefine */,
+				F664F54E217E25E900EF8859 /* Common */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -132,6 +193,11 @@
 			isa = PBXGroup;
 			children = (
 				F6824A4E21762B63003029EE /* UITableViewCell.swift */,
+				F664F556217E31F500EF8859 /* NamePictureCell.swift */,
+				F67A5688217F6A4F006521AB /* AboutCell.swift */,
+				F67A568A217F6C72006521AB /* AttributeCell.swift */,
+				F67A568C217F6EAE006521AB /* FriendsCell.swift */,
+				F67A568E217F81E4006521AB /* EmailCell.swift */,
 			);
 			path = CellsDefine;
 			sourceTree = "<group>";
@@ -146,6 +212,7 @@
 				F6824A1821762874003029EE /* Sources */,
 				F6824A1921762874003029EE /* Frameworks */,
 				F6824A1A21762874003029EE /* Resources */,
+				F664F54B217E236B00EF8859 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -240,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F664F54D217E258700EF8859 /* TableData.json in Resources */,
 				F6824A2A21762875003029EE /* LaunchScreen.storyboard in Resources */,
 				F6824A2721762875003029EE /* Assets.xcassets in Resources */,
 				F6824A2521762874003029EE /* Main.storyboard in Resources */,
@@ -262,6 +330,29 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F664F54B217E236B00EF8859 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/HandyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Localize_Swift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F6824A1821762874003029EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,7 +360,16 @@
 			files = (
 				F6824A4F21762B63003029EE /* UITableViewCell.swift in Sources */,
 				F6824A2221762874003029EE /* ViewController.swift in Sources */,
+				F67A5689217F6A4F006521AB /* AboutCell.swift in Sources */,
+				F664F559217E344B00EF8859 /* Configure.swift in Sources */,
 				F6824A2021762874003029EE /* AppDelegate.swift in Sources */,
+				F664F55B217E350000EF8859 /* Extentions.swift in Sources */,
+				F664F550217E263F00EF8859 /* ProfileModel.swift in Sources */,
+				F664F555217E2B5B00EF8859 /* ProfileViewModel.swift in Sources */,
+				F67A568D217F6EAE006521AB /* FriendsCell.swift in Sources */,
+				F67A568B217F6C72006521AB /* AttributeCell.swift in Sources */,
+				F67A568F217F81E4006521AB /* EmailCell.swift in Sources */,
+				F664F557217E31F500EF8859 /* NamePictureCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +545,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +566,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
